@@ -1,0 +1,11 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "TypeScript demo for Need To Node",
+  "main": "index.js",
+  "author": "Bryan Hughes <bryan@nebri.us>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
