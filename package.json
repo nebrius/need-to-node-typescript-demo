@@ -4,6 +4,7 @@
   "description": "TypeScript demo for Need To Node",
   "scripts": {
     "prebuild": "rimraf dist",
+    "typings": "typings install",
     "build": "tsc",
     "start": "node dist/index.js"
   },
@@ -13,6 +14,8 @@
     "express": "^4.14.0"
   },
   "devDependencies": {
-    "rimraf": "^2.5.3"
+    "rimraf": "^2.5.3",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.1"
   }
 }
