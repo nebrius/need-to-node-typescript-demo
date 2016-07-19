@@ -1,10 +1,10 @@
 {
-  "name": "demo",
+  "name": "need-to-node-typescript-demo",
   "version": "1.0.0",
   "description": "TypeScript demo for Need To Node",
   "scripts": {
-    "prebuild": "rimraf dist",
     "typings": "typings install",
+    "prebuild": "rimraf dist",
     "build": "tsc",
     "start": "node dist/index.js"
   },
